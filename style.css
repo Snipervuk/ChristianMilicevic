@@ -75,13 +75,13 @@ header li
 }
 
 /*Header for ID (which is branding**/ 
-header#branding /*# is the symbol for branding items**/ 
+header #branding /*# is the symbol for branding items**/ 
 {
 	float:left;
 }
 
 /*HEADER FOR BRANDING H1**/
-header#branding h1 
+header #branding h1 
 {
 	margin:0;
 }
@@ -91,8 +91,9 @@ header#branding h1
 header nav
 {
 	float: right;
-	margin-top: 0px;
+	margin-top: 10px;
 }
+
 
 /*Header w/ highlight class and property**/
 /*USE HIGHLIGHT FOR H1's and Current for A LIST's**/
@@ -176,7 +177,7 @@ header a:hover
 	float:left;
 	text-align: center;
 	width: 30%;
-	padding: 10px;
+	/*padding: 10px;**/ /*Dont need due to boxes not being big enough**/
 }
 
 #boxes .box img
