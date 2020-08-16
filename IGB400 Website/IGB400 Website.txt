@@ -1,0 +1,7 @@
+<html>
+<head>
+<title>IGB400 Website</title>
+</head>
+<body>
+</body>
+</html>
