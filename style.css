@@ -117,7 +117,7 @@ header a:hover
 	
 	/*Since we are in the CSS folder we need to go outside of it so use that in DIRECTROY/CD**/	
 	/*Jumps out of the CSS folder into the IMG folder hence the ../ **/
-	background:url('./img/tuning3.png') no-repeat 0 0; /*X and Y & No repeat will stack the whole page*//
+	background:url('tuning3.png') no-repeat 0 0; /*X and Y & No repeat will stack the whole page*//
 	/*FIND OUT WHY THIS DOESN'T DISPLAY AND LINK BACK LATER*//
 	
 	text-align:center;
