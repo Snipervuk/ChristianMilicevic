@@ -143,7 +143,8 @@ header a:hover
 /*Newsletter**/
 #newsletter
 {
-	padding:15px;
+	/*padding:15px;**/
+	padding:1px;
 	color:#ffffff;
 	background:#35424a
 }
@@ -177,6 +178,7 @@ header a:hover
 	float:left;
 	text-align: center;
 	width: 30%;
+	height: auto;
 	/*padding: 10px;**/ /*Dont need due to boxes not being big enough**/
 }
 
