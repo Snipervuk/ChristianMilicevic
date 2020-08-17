@@ -205,7 +205,25 @@ aside#sidebar .quote input, aside#sidebar .quote textarea
 article#main-col
 {
 	float:left;
-	width:65%;
+	/*width:65%;**/
+	width:100%;
+}
+
+#main h1
+{
+	float: center;
+	text-align: center;
+	padding: 20px;
+	font-size:40px;
+
+}
+
+#boxes h1
+{
+	float: center;
+	text-align: center;
+	padding: 20px;
+	font-size:40px;
 }
 
 /*Portfolio*/
@@ -213,8 +231,9 @@ ul#portfolio li
 {
 	list-style: none;	/*Removes dotes from the style list**/
 	padding: 20px;
-	border: #cccccc solid 1px;
-	margin-bottom: 5px;
+	border: #cccccc solid 2px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	background: #e6e6e6;
 }
 
