@@ -179,7 +179,7 @@ header a:hover
 	text-align: center;
 	width: 30%;
 	height: auto;
-	/*padding: 10px;**/ /*Dont need due to boxes not being big enough**/
+	padding: 10px;**/ /*Dont need due to boxes not being big enough**/
 }
 
 #boxes .box img
@@ -199,7 +199,6 @@ aside#sidebar .quote input, aside#sidebar .quote textarea
 {
 	width: 90%;
 	padding: 5px;
-	
 }
 
 /*Main-Col*/
