@@ -36,7 +36,6 @@ body
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
 /*--------------------------------------------**/
 
 /*HEADER**/ 
@@ -179,7 +178,7 @@ header a:hover
 	text-align: center;
 	width: 30%;
 	height: auto;
-	padding: 10px;**/ /*Dont need due to boxes not being big enough**/
+	padding: 20px; /*Dont need due to boxes not being big enough**/
 }
 
 #boxes .box img
@@ -190,15 +189,17 @@ header a:hover
 /*Sidebar Stuff*/
 aside#sidebar
 {
-	float: right;
+	margin: auto;
 	width: 30%;
 	margin-top: 10px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea
 {
+	margin: auto;
 	width: 90%;
 	padding: 5px;
+
 }
 
 /*Main-Col*/
@@ -209,14 +210,31 @@ article#main-col
 	width:100%;
 }
 
+artcile#main-col2
+{
+	/*width:65%;**/
+	text-allign: center;
+}
+
+#main p
+{
+	font-size:18px;
+}
+
 #main h1
 {
 	float: center;
 	text-align: center;
 	padding: 20px;
 	font-size:40px;
-
 }
+
+#main h3
+{
+	font-size:20px;
+	margin-top: 15px;
+	margin-bottom: 5px;
+}	
 
 #boxes h1
 {
@@ -225,6 +243,12 @@ article#main-col
 	padding: 20px;
 	font-size:40px;
 }
+
+#main h3
+{
+	text-align: left;
+}
+
 
 /*Portfolio*/
 ul#portfolio li
@@ -277,7 +301,6 @@ footer
   {
 	width: 100%;
 	margin-bottom: 5px;
-	
   }
 }
 
