@@ -189,14 +189,38 @@ header a:hover
 /*Sidebar Stuff*/
 aside#sidebar
 {
-	margin: auto;
+	margin-left: auto;
+    margin-right: auto;
 	width: 30%;
+	margin-top: 10px;
+}
+
+aside#sidebar h3
+{
+	margin-left: 90px;
+}
+
+aside#sidebar .quote
+{
+	/*margin-right: 30px;**/
+	margin-left: 20px;
+}
+
+aside#sidebar .quote input textarea
+{
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+aside#sidebar .quote label
+{
+	/*margin-left: 160px;**/
+	font-size: 18px;
 	margin-top: 10px;
 }
 
 aside#sidebar .quote input, aside#sidebar .quote textarea
 {
-	margin: auto;
 	width: 90%;
 	padding: 5px;
 
@@ -208,12 +232,6 @@ article#main-col
 	float:left;
 	/*width:65%;**/
 	width:100%;
-}
-
-artcile#main-col2
-{
-	/*width:65%;**/
-	text-allign: center;
 }
 
 #main p
@@ -293,7 +311,7 @@ footer
   
   #newsletter button .quote button
   {
-	display:bloack;
+	display:block;
 	width:100%
   }
   
