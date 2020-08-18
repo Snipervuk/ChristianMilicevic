@@ -4,7 +4,6 @@
 /*Test1**/
 body 
 {	
-
 	font 15px, 15 Arial, Helvetica, sans-serif;
 	padding:0; /*Don't know if this works in Notepad++ since it isn't greyed out???**/
 	margin:0;
@@ -44,7 +43,7 @@ body
 	color: #ffffff;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	border: #cccccc solid 2px;
+	border: #cccccc solid 3px;
 	background: #e6e6e6;
 	color: black;
 }
@@ -296,7 +295,7 @@ footer
 	padding:20px;
 	margin-top:20px;
 	color:#ffffff;
-	background-color:#e8491d;
+	background:#35424a;	/*OLIVISH COLOR**/
 	text-align: center;
 }
 
