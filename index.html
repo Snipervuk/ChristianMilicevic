@@ -1,192 +1,205 @@
+<!DOCTYPE HTML>
+<!--
+	Arcana by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-	
-	<!--Headings-->
 	<head>
-		<title>Christian Milicevic</title>
+		<title>Home</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-		<!--<h1>Welcome to my portfolio</h1>-->
-		<!--<h5> By Christian Milicevic</h5>-->
-		
-		<!--BackEnd Shit-->
-			<!--Linking CSS folder to HTML Website-->
-			<link rel="stylesheet" type= "text/css" href ="style.css?version=1">
-			<!--href ="./css/style.css?version=1">-->
-			
-			
-			<!--Setting the characters for paragraph? (I think)-->
-			<meta charset="utf-8">
-			<!--Setting References-->
-		    <meta name="description" content="IGB400 Assignment 1 Portfolio using HTML/CSS/Notepad++">
-			<meta name="author" content="Christian Milicevic">
-			<!--Setting Keywords for Search Engine?-->
-			<meta name="keywords" content="Website, Christian Milicevic, Web Design, HTML, Portfolio">		
-			
-			<!--viewport to stay in range of mobile device/desktop (Squashing Window/Set's width)-->
-			<meta name="viewport" content="width=device-width">
-		<!--End of BackEnd Shit-->	
-	</head>
-	
-    <!--Body-->
-	<body>
-		<!--<h3>Programming Portfolio</h3>-->
-		<header>
-			<!--Id for is for something that is unique like a showcase (in 1 section of the page-->
-			<!--Class is for something that you would do over again (recurring)-->
-			<div class="container">
-				<div id="branding">
-				 <h1>Christian Milicevic</h1>
+	<body class="is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header">
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="index.html">Home</a></li>
+								<li><a href="Resume.pdf">Resume</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="#footer">Contact</a></li>
+									<li>
+									<a href="#">Portfolio</a>
+									<ul>
+										<li><a href="uni.html">Uni Projects</a></li>
+										<li><a href="self.html">Self Projects</a></li>
+										<li><a href="current.html">Currently Working On</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
 				</div>
-				 <nav>
-					<!--Page Link stuff/UL = UnOrdered List-->
-					<ul>
-						<li class= "current"><a href="index.html">Home</a></li>
-						<li><a href="resume.html">Resume</a></li>
-						<li><a href="blog.html">Blog</a></li>
-						<li><a href="portfolio.html">Portfolio</a></li>
-					</ul>	
-				</nav>
-			</div>
-		</header>
-		
-		<!--SHOWCASE SECTION-->
-		<section id="showcase">
-		 <div class="container">
-			<h1>Build it, break it and fix it...</h1>
-			<p>Test</p>
-		 </div>
-		</section>
-		
-		<section id="newsletter">
-		 <div class="container">
-			<!--<h1>Experience in the following</h1>-->
-			<form> <!--Usually you would have a action associated with from like "php. etc"-->
-				<!--<input type="email" placeholder="Enter Email..."/>-->
-				<!--<button type="submit" class="button_1">Subscribe</button>-->
-			</form>
-		 </div>
-		</section>
-		
-		
-		<!--This is where the box division classes go/splitting sections go-->
-		<section id="boxes">
-		 <div class="container">
-		 <h1>Experience in the following</h1>
-		  <div class = "box">
-			<!--Image source from the directory folder-->
-			<img src="./img/HTML.png"> <!--image source is non case sensitive-->
-			<img src="./img/Css2.png"> <!--image source is non case sensitive-->
-			<h2>HTML5/CSS</h2>
-			<p></p>
-		  </div>
-		  
-		  <div class = "box">
-		    <!--Image source from the directory folder-->
-		    <img src="./img/CSharp.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-			<h2>C#</h2>
-			<p></p>
-		  </div>
-		  
-		  <div class = "box">
-		    <!--Image source from the directory folder-->
-			<img src="./img/GitHub Logo2.png"> <!--image source is non case sensitive-->
-			<img src="./img/Git.png"> <!--image source is non case sensitive-->
-			<h2>Git and Github Desktop</h2>
-			<p></p>
-		  </div>
-		  
-		  <!--Space dummy To allign boxes-->
-		  <!--<div class = "box">
-		    <!--Image source from the directory folder-->
-			<!--<img src=""> <!--image source is non case sensitive-->
-			<!--<img src=""> <!--image source is non case sensitive-->
-			<!--<h3></h3>
-			<p></p>
-		  </div>-->
-		  		  
-		  <div class = "box">
-		    <!--Image source from the directory folder-->
-		    <img src="./img/UnityLogo.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-		    <img src="./img/VisualStudios.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-			<h2>Unity/Visual Studios</h2>
-			<p></p>
-		  </div>
-		  
-		  <div class = "box">
-		    <!--Image source from the directory folder-->
-		    <img src="./img/Python.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-			<h2>Python</h2>
-			<p></p>
-		  </div>
-		  
-		  <div class = "box">
-		    <!--Image source from the directory folder-->
-		    <img src="./img/Trello.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-		    <img src="./img/Slack.png"> <!--image source is non case sensitive/No Illegal characters like C# (The #)-->
-			<h2>Trello/Slack</h2>
-			<p></p>
-		  </div>
-		</section>
-		
-		<section id="main">
-		 <div class="container">
-			<article id="main-col">
-			  <!--<h1 class="page-title">About Me</h1>-->
-			  <h1>About Me</h1>			  			  
-			  <ul id="portfolio">
-			   <li>
-			    <h3>Qualifications</h3>
-			    <p>- Diploma of Game Design (TAFE 2017-18)</p>
-			    <p>- Bachelor of Games and Interactive Environments Software Technologies w/ Game Design and Advanced Software Tech (QUT 2018-20)</p>
-			    <p>- GPA (Distinction)</p>
 
+			<!-- Banner -->
+				<section id="banner">
+					<header>
+						<!--<h2>My experience : <em>A responsive site template freebie by <a href="http://html5up.net">HTML5 UP</a></em></h2>-->
+						<h2>Welcome...</h2>
+						<!--<a href="#" class="button">Learn More</a>-->
+					</header>
+				</section>
 
-				<h3>My Story</h3>
-			    <p>Hi my name is Christian Milicevic, I am 21 years old and am half Australian and Serbian born in NSW, but raised in QLD. 
-				I like being a workaholic (as shown on my resume) and enjoy doing a job probably, efficiently and effectively. 
-				I have a passion for problem solving and finding out how stuff works with mostly anything related to technology.
-				I also do enjoy being a team player and love to learn new concepts, ideas and suggestions from others people as well.</p>
-				<p> I do hope to end up around Brisbane doing something computer science related (not just limiting myself to only making games etc), but I will see where programming takes me...</p>
-				<p>Please do take the time to look at my portfolio and resume and feel free to contact me below, thanks!</p>
-			   </li>
-			  </ul>
-			</article>
-		</section>
-		
-		<!--Contact Me Below Here Section-->
-		<!--This is where the box division classes go/splitting sections go-->
-		<section id="main">
-		 <div class="container">
-			<article id="main-col">		  			 
-			  <h1>Contact Me</h1>
-			  <aside id="sidebar">
-			 <div class="dark2">
-			   <form class= "quote">
-			    <div>
-			     <label>Name</label><br>
-			     <input type="text" placeholder="Your Name">
-			    </div>
-			    <div>
-			     <label>Email</label><br>
-			     <input type="email" placeholder=" Your Email Address">
-			    </div>
-			    <div>
-			     <label>Message</label><br>
-				 <textarea placeholder="Your Message"></textarea>
-			    </div>
-			     <button class = "button_1" typeof="submit">Send</button>
-			    </form>
-			   </div>
-			</aside>
-			  
-			  
-			</article>
-			</div>
-		</section>
-						
-		<!--Footer Section (Below at the bottom of the webpage-->
-		<footer>
-			<p>Made with HTML/CSS and hosted on Github</p>
-			<p>Christian Milicevic 2020 &copy; </p>
-		</footer>
+			<!-- Highlights -->
+				<section class="wrapper style10">
+					<div class="container">
+					 <h2>Experience in the following</h2>
+						<div class="row gtr-200">
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<!--<i class="icon solid major fa-paper-plane"></i>-->
+									<img src="images/HTML.png">
+									<img src="images/Css2.png">
+									<h3>HTML/CSS</h3>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<img src="images/CSharp.png">
+									<h3>C#</h3>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<img src="images/Git.png">
+									<img src="images/Github Logo2.png">
+									<h3>Git/Github</h3>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+				
+							<!-- Highlights -->
+				<section class="wrapper style10">
+					<div class="container">
+						<div class="row gtr-200">
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<!--<i class="icon solid major fa-paper-plane"></i>-->
+									<img src="images/UnityLogo.png">
+									<img src="images/VisualStudios.png">
+									<h3>Unity/VisualStudios</h3>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<img src="images/Python.png">
+									<h3>Python</h3>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower">
+								<div class="box highlight">
+									<img src="images/Slack.png">
+									<img src="images/Trello.png">
+									<h3>Trello/Slack</h3>
+								</div>
+							</section>
+						</div>
+					</div>
+				</section>
+
+			<!-- Gigantic Heading -->
+				<section class="wrapper style2">
+					<div class="container">
+						<header class="major">
+							<h2>About Me</h2>
+						</header>
+					</div>
+				</section>
+
+			<!-- Posts -->
+				<section class="wrapper style11">
+					<div class="container">
+						<div class="row">
+							<section class="col-81 col-12-narrower">
+								<div class="box post">
+									<a href="#" class="image left"><img src="images/Qual.png" alt="" /></a>
+									<div class="inner">
+										<h3>Qualifications</h3>
+										<p>- <b>Bachelor of Games and Interactive Environments</b> <b>Software &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Technologies</b> &nbsp; w/: Game Design & Advanced Software Tech <i>(TAFE 2017-18)</i> &nbsp; &nbsp; - GPA: <b>Distinction</b> <br><b>- Diploma of Game Design</b> <i>(TAFE 2017-18)</i></br></p>
+									</div>
+								</div>
+							</section>
+							<section class="col-80 col-12-narrower">
+							</section>
+							<h3>My Story</h3>
+							<p>Hi my name is Christian Milicevic, I am 21 years old and am half Australian and Serbian born in NSW, but raised in QLD. I like being a workaholic (as shown on my resume) and enjoy doing a job probably, efficiently and effectively. I have a passion for problem solving and finding out how stuff works with mostly anything related to technology. I also do enjoy being a team player and love to learn new concepts, ideas and suggestions from others people as well.
+							I do hope to end up around Brisbane doing something computer science related (not just limiting myself to only making games etc), but I will see where programming takes me...
+							Please do take the time to look at my portfolio and resume and feel free to contact me below, thanks!</p>
+						</div>
+					</div>
+				</section>
+
+			<!-- CTA -->
+				<section id="cta" class="wrapper style3">
+					<div class="container">
+						<header>
+						</header>
+					</div>
+				</section>
+
+			<!-- Footer -->
+				<div id="footer">
+					<div class="container">
+						<div class="row">
+							<section class="col-3 col-6-narrower col-12-mobilep">
+								<ul class="links">
+								</ul>
+							</section>
+							<section class="col-6 col-12-narrower">
+								<h3>Get In Touch</h3>
+								<form>
+									<div class="row gtr-50">
+										<div class="col-6 col-12-mobilep">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="col-6 col-12-mobilep">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="col-12">
+											<textarea name="message" id="message" placeholder="Message" rows="5"></textarea>
+										</div>
+										<div class="col-12">
+											<ul class="actions">
+												<li><input type="submit" class="button alt" value="Send Message" /></li>
+											</ul>
+										</div>
+									</div>
+								</form>
+							</section>
+						</div>
+					</div>
+
+					<!-- Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							<li><a href="#" class="icon brands fa-google-plus-g"><span class="label">Google+</span></a></li>
+						</ul>
+
+					<!-- Copyright -->
+						<div class="copyright">
+							<ul class="menu">
+								<li>&copy; Christian Milcevic 2020</li></a></li>
+							</ul>
+						</div>
+				</div>
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
