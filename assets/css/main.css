@@ -2201,6 +2201,12 @@ input, select, textarea {
 	}
 
 /* Image */
+	.selfimagebanner { /*IMAGE BANNER ON SELF PROJECT PAGE*/
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	}
 
 	.image {
 		border: 0;
