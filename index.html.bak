@@ -87,7 +87,7 @@
 										<p>Snowflake, Looker</p>
 										<p>Nmap, Kali Linux</p>
 										<p>Linux</p>
-										<p>Jfrog Xraay, Jfrog Artifactory</p>
+										<p>Jfrog Xray, Jfrog Artifactory</p>
 										<p>Fortify</p>
 									</article>							
 								</div>
@@ -98,8 +98,7 @@
 									<p>Python, Ansible</p>
 									<p>HTML, CSS</p>
 									<p>Javascript (jQuery, Bootstrap)</p>
-									<p>Jenkins, Tomcat</p>
-									<p>Groovy, Go</p>
+									<p>Jenkins</p>
 									<p>Splunk</p>
 									<p>AWS (EC2, RDS, S3 and EBS)</p>
 									</article>
